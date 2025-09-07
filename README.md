@@ -9,4 +9,5 @@ npm install @react-navigation/native @react-navigation/stack react-native-screen
 
 ### Emulador:
 npx expo start
+
 a - open android
