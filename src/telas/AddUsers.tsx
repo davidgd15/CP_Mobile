@@ -62,7 +62,7 @@ export default function AddUsers() {
       setEmail('');
       setAvatarSelecionado(null);
 
-      Alert.alert('Sucesso', 'Usuário cadastrado com sucesso!', [
+      Alert.alert('Sucesso', 'Usuário cadastrado!', [
         { text: 'OK', onPress: () => navigation.navigate('Users') }
       ]);
 
@@ -93,7 +93,7 @@ export default function AddUsers() {
         keyboardType="email-address"
       />
       
-      <Text style={styles.subtitulo}>Escolha um avatar:</Text>
+      <Text style={styles.subtitulo}>Escolha seu avatar:</Text>
       
       <View style={styles.containerAvatares}>
         {avatares.map((avatar, index) => (
